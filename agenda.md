@@ -98,7 +98,7 @@ http://swcarpentry.github.io/good-enough-practices-in-scientific-computing/
 every file and function should have a brief explanatory remark at the start and
 at least one working example of its use.
 
-#### Mechanics
+#### Tools 
 At NSLS-II, we use sphinx, which inspects Python source code to auto-generate
 API documentation (in addition to prose documentation). It is the common choice
 for other scientific Python packages.
@@ -112,11 +112,11 @@ all.
 ### Testing
 Testing is essential for effective collaboration.
 
-#### Testing Philosophy
+#### Philosophy
 * If you don’t want a contributor to break your code, protect it with a test.
 * If you find a bug, make a test to prove that you fixed it.
 
-#### Testing Machinery
+#### Tools and Approach
 * How TravisCI/appveyor/CircleCI works
 * We can test on both synthetic data (preferred, but usually more work) and real
 data.
