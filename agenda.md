@@ -37,8 +37,8 @@
 ## Welcome
 * Quick introductions: everyone say your name and affiliation
 * We will begin by building a consensus on the mechanics of an inter-facility
-software collaboration for scientific Python code for X-rays. The astronomy
-community provides us with a successful model, astropy.
+software collaboration of scientific Python libraries for data analysis at
+lightsources. The astronomy community provides us with a successful model, astropy.
 
 ## Vision
 Take a few minutes right now to read astropy vision document:
