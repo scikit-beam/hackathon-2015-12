@@ -41,9 +41,11 @@ Everyone say your name and affiliation
 ## Vision
 Take a few minutes right now to read astropy vision document:
 http://docs.astropy.org/en/stable/development/vision.html
+
 Should we adopt a variation on this document as our vision for inter-facility
 collaboration?
-Share lightly edited version (astro -> xray) and call for comments
+
+We prepared a lightly edited version (essentially, 'astro' -> 'xray'). Comments?
 
 ## Standards
 Basic standards for “affiliated projects” can be minimal:
@@ -59,10 +61,9 @@ Examples from related projects:
 From our perspective, the key points are:
 * Make simple, composable functions to enable code re-use.
 * Keep I/O logic, visualization logic, and scientific logic separate.
-* Isolate dependencies. (Top-level package should require only numpy, scipy,
-* matplotlib, pandas.)
-* Use basic types: built-in Python types + numpy arrays -* no special “Image”
-* object for example
+* Isolate dependencies. (Top-level package should require only numpy, scipy, matplotlib, pandas.)
+* Use basic types: built-in Python types + numpy arrays -- e.g., no special “Image”
+object for example
 
 ## Naming the project
 Does anyone have a better idea than “scikit-xray”? Context: What is a scikit?
@@ -73,12 +74,10 @@ X-rays.)
 
 ## Reasons for using and GitHub
 * Everyone is moving to git and GitHub to enable distributed collaboration,
-* including the Python scientific stack. We’ll contributing to upstream projects
-* like scikit-image, so we’ll be using it anyway.
-* Pre-merge review and diff comments are hugely important for successful
-* collaboration.
-* It integrates nicely with DOI generation, automated tests, auto-built
-* documentation, etc.
+including the Python scientific stack. We’ll contributing to upstream projects
+like scikit-image, so we’ll be using it anyway.
+* Pre-merge review and diff comments are hugely important for successful collaboration.
+* It integrates nicely with DOI generation, automated tests, auto-built documentation, etc.
 
 ## Detailed Mechanics of Collaboration
 
@@ -102,11 +101,11 @@ At NSLS-II, we use sphinx, which inspects Python source code to auto-generate
 API documentation (in addition to prose documentation). It is the common choice
 for other scientific Python packages.
 
-    We also like example Jupyter notebooks. Many very new tools (see
-    [tmpnb](https://try.jupyter.org/), [binder](mybinder.org),
-    [thebe](https://oreillymedia.github.io/thebe/)) allow users to experiment
-    with scientific Python analysis code in the browser with no installation at
-    all.
+We also like example Jupyter notebooks. Many very new tools (see
+[tmpnb](https://try.jupyter.org/), [binder](mybinder.org),
+[thebe](https://oreillymedia.github.io/thebe/)) allow users to experiment
+with scientific Python analysis code in the browser with no installation at
+all.
 
 ### Testing
 Testing is essential for effective collaboration.
@@ -118,11 +117,11 @@ Testing is essential for effective collaboration.
 #### Testing Machinery
 * How TravisCI/appveyor/CircleCI works
 * We can test on both synthetic data (preferred, but usually more work) and real
-* data.
+data.
 * Following astropy, bundle small data files with the code ( < 100 kb) and
-* provide convenient functions for downloading any large data files.
+provide convenient functions for downloading any large data files.
 * There is interesting to be done in finding good ways to test scientific code:
-* sensitivity testing, generative testing, ….
+sensitivity testing, generative testing, ….
 
 ## Git Tutorial
 * Deputize everyone who already knows git.
