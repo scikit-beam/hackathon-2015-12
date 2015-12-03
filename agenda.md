@@ -74,7 +74,7 @@ http://scikits.appspot.com/scikits
 (The package name “xray” is already taken, and it has nothing to do with
 X-rays.)
 
-## Reasons for using and GitHub
+## Reasons for using git and GitHub
 * Everyone is moving to git and GitHub to enable distributed collaboration,
 including the Python scientific stack. We’ll contributing to upstream projects
 like scikit-image, so we’ll be using it anyway.
