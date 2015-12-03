@@ -35,8 +35,10 @@
 # Detailed Outline for Monday
 
 ## Welcome
-Why We’re Supposedly Here; Why We’re Really Here
-Everyone say your name and affiliation
+* Quick introductions: everyone say your name and affiliation
+* We will begin by building a consensus on the mechanics of an inter-facility
+software collaboration for scientific Python code for X-rays. The astronomy
+community provides us with a successful model, astropy.
 
 ## Vision
 Take a few minutes right now to read astropy vision document:
