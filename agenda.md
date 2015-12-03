@@ -98,7 +98,7 @@ http://swcarpentry.github.io/good-enough-practices-in-scientific-computing/
 every file and function should have a brief explanatory remark at the start and
 at least one working example of its use.
 
-### Mechanics
+#### Mechanics
 At NSLS-II, we use sphinx, which inspects Python source code to auto-generate
 API documentation (in addition to prose documentation). It is the common choice
 for other scientific Python packages.
