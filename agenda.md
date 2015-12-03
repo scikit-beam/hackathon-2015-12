@@ -1,5 +1,8 @@
 # Itinerary
 
+Location: Building 703, Large Seminar Room
+[map](https://www.bnl.gov/maps/linkable_files/pdf/central_campus.pdf)
+
 ## Monday 2015-12-07
  * 10:00 - 10:10 :: welcome
  * 10:10 - 12:00 :: discussion of mechanics of collaboration (inc coffee break + cookies)
