@@ -5,7 +5,8 @@ Location: Building 703, Large Seminar Room
 
 ## Monday 2015-12-07
  * 10:00 - 10:10 :: welcome
- * 10:10 - 12:00 :: discussion of mechanics of collaboration (inc coffee break + cookies)
+ * 10:10 - 10:40 :: OSG speaker
+ * 10:40 - 12:00 :: discussion of mechanics of collaboration (inc coffee break + cookies)
  * 12:00 - 13:00 :: lunch
  * 13:00 - 14:00 :: discussion, continued
  * 14:00 - 16:00 :: training on collaboration tools used by the scipy ecosytem (inc coffee break + cookies)
@@ -101,7 +102,7 @@ http://swcarpentry.github.io/good-enough-practices-in-scientific-computing/
 every file and function should have a brief explanatory remark at the start and
 at least one working example of its use.
 
-#### Tools 
+#### Tools
 At NSLS-II, we use sphinx, which inspects Python source code to auto-generate
 API documentation (in addition to prose documentation). It is the common choice
 for other scientific Python packages.
@@ -131,4 +132,3 @@ sensitivity testing, generative testing, ….
 ## Git Tutorial
 * Deputize everyone who already knows git.
 * Follow SWC tutorial: http://swcarpentry.github.io/git-novice/
-
