@@ -5,13 +5,19 @@ core
 ----
 
 -   numpy
--   scipy
 -   pandas
 -   six
 -   networkx
+
+analysis
+--------
+
+-   scipy
 -   skimage
--   sklean
+-   sklearn
 -   lmfit
+-   pywavelets
+-   pyfftw
 
 plotting
 --------
