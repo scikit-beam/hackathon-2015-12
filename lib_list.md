@@ -30,6 +30,12 @@ plotting
 -   plotly
 -   bqplot
 
+Constants
+---------
+
+-   xraylib
+-   periodictable
+
 I/O
 ---
 
@@ -72,6 +78,7 @@ package management
 
 -   pip
 -   conda / anaconda
+-   versioneer
 
 go fast
 -------
